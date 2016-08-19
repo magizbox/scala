@@ -1,5 +1,22 @@
 site_name: ScalaTutorial
+google_analytics: ['UA-68978617-1', 'magizbox.com']
+
 pages:
 - "Home": 'index.md'
+- "Installation": 'install.md'
+- "IDE": 'ide.md'
+- "Doc":
+  - "Basic Syntax": "basic_syntax.md"
 markdown_extensions:
     - footnotes
+extra_css:
+  - css/book.css
+  - css/course.css
+  - css/video.css
+extra_javascript:
+  - js/underscore.js
+  - js/gspreadsheet.js
+  - js/book.js
+  - js/course.js
+  - js/video.js
+
